@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+	<title>My Family Tree - Family Map</title>
+	<meta charset="UTF-8" />
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+	<meta name ="apple-mobile-web-app-capable" content="yes" />
+	<meta name="generator" content="Gramps GrampsAIO64-4.2.5-1 http://gramps-project.org/" />
+	<meta name="author" content="Renee Schmidt" />
+	<link href="../../../images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+	<link href="../../../css/narrative-screen.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="../../../css/narrative-print.css" media="print" rel="stylesheet" type="text/css" />
+	<link href="../../../css/narrative-maps.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+<script deter="deter" style="width =100%; height =100%;" type="text/javascript">
+
+  var tracelife = [
+    new google.maps.LatLng(39.93293000, -82.02232700),
+    new google.maps.LatLng(42.29170700, -85.58722900),
+    new google.maps.LatLng(39.70837900, -91.35848200),
+    new google.maps.LatLng(39.44366900, -98.22129800),
+    new google.maps.LatLng(39.44366900, -98.22129800),
+    new google.maps.LatLng(39.44366900, -98.22129800),
+    new google.maps.LatLng(39.44366900, -98.22129800),
+    new google.maps.LatLng(39.49862100, -98.30866700),
+    new google.maps.LatLng(39.49862100, -98.30866700),
+    new google.maps.LatLng(39.67139900, -98.15366100),
+    new google.maps.LatLng(39.01190200, -98.48424600),
+    new google.maps.LatLng(39.01190200, -98.48424600),
+    new google.maps.LatLng(39.63013300, -98.19942800),
+    new google.maps.LatLng(39.62076200, -98.32970700),
+    new google.maps.LatLng(39.49862100, -98.30866700),
+    new google.maps.LatLng(39.67139900, -98.15366100),
+    new google.maps.LatLng(39.45611800, -98.10615900),
+    new google.maps.LatLng(39.45611800, -98.10615900),
+    new google.maps.LatLng(39.45611800, -98.10615900),
+    new google.maps.LatLng(39.45611800, -98.10615900),
+    new google.maps.LatLng(39.67139900, -98.15366100),
+    new google.maps.LatLng(39.45611800, -98.10615900)
+  ];
+
+  function initialize() {
+    var myLatLng = new google.maps.LatLng(40.65180400, -90.25328500);
+
+    var mapOptions = {
+      scaleControl:    true,
+      panControl:      true,
+      backgroundColor: '#000000',
+      zoom:            4,
+      center:          myLatLng,
+      mapTypeId:       google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+    var flightPath = new google.maps.Polyline({
+      path:          tracelife,
+      strokeColor:   "#FF0000",
+      strokeOpacity: 1.0,
+      strokeWeight:  2
+    });
+
+   flightPath.setMap(map);
+  }
+</script>
+</head>
+<body id ="FamilyMap" onload ="initialize()">
+	<div id="header">
+		<h1 id="SiteTitle">My Family Tree</h1>
+	</div>
+	<div class="wrapper" id="nav" role="navigation">
+		<div class="container">
+			<ul class="menu" id="dropmenu">
+				<li><a href="../../../individuals.html" title="Individuals">Individuals</a></li>
+				<li><a href="../../../index.html" title="Surnames">Surnames</a></li>
+				<li><a href="../../../events.html" title="Events">Events</a></li>
+				<li><a href="../../../places.html" title="Places">Places</a></li>
+				<li><a href="../../../sources.html" title="Sources">Sources</a></li>
+				<li><a href="../../../media.html" title="Media">Media</a></li>
+				<li><a href="../../../thumbnails.html" title="Thumbnails">Thumbnails</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content" id="FamilyMapDetail">
+		<h3>Tracking Campbell, Emma Viola</h3>
+		<p id="description">
+		This map page represents that person and any descendants with all of their event/ places. If you place your mouse over the marker it will display the place name. The markers and the Reference list are sorted in date order (if any?). Clicking on a place&#8217;s name in the Reference section will take you to that place&#8217;s page.
+		</p>
+		<div id="map_canvas">
+		</div>
+		<div class="subsection" id="references">
+			<h4>References</h4>
+			<table class="infolist">
+				<thead>
+					<tr>
+						<th class="ColumnDate">Date</th>
+						<th class="ColumnPlace">Place Title</th>
+						<th class="ColumnType">Event Type</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="ColumnDate">1851-09-27</td>
+						<td class="ColumnPlace"><a href="../../../plc/4/f/d8fad281a176709f940240f78f4.html" title="Brighton, Muskingum, Ohio, United States of America">Brighton, Muskingum, Ohio, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1857-04-02</td>
+						<td class="ColumnPlace"><a href="../../../plc/a/3/d8fad0234ab17423bb4ce0f933a.html" title="Kalamazoo, Michigan, United States of America">Kalamazoo, Michigan, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1874-01-18</td>
+						<td class="ColumnPlace"><a href="../../../plc/e/a/d94a9897351460de3d89b0313ae.html" title="Hannibal, Marion, Missouri, United States of America">Hannibal, Marion, Missouri, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1878-12-08</td>
+						<td class="ColumnPlace"><a href="../../../plc/1/6/d8fada31fe92c3e500d85d92561.html" title="Mitchell, Kansas, United States of America">Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1879-12-02</td>
+						<td class="ColumnPlace"><a href="../../../plc/1/6/d8fada31fe92c3e500d85d92561.html" title="Mitchell, Kansas, United States of America">Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1881-10-18</td>
+						<td class="ColumnPlace"><a href="../../../plc/1/6/d8fada31fe92c3e500d85d92561.html" title="Mitchell, Kansas, United States of America">Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1883-05-07</td>
+						<td class="ColumnPlace"><a href="../../../plc/1/6/d8fada31fe92c3e500d85d92561.html" title="Mitchell, Kansas, United States of America">Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1885-03-30</td>
+						<td class="ColumnPlace"><a href="../../../plc/3/3/d8fad1456ba7ed1718a7b0ae633.html" title="Glen Elder, Mitchell, Kansas, United States of America">Glen Elder, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1887-03-18</td>
+						<td class="ColumnPlace"><a href="../../../plc/3/3/d8fad1456ba7ed1718a7b0ae633.html" title="Glen Elder, Mitchell, Kansas, United States of America">Glen Elder, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1889-02-05</td>
+						<td class="ColumnPlace"><a href="../../../plc/c/a/d92f181769d289d0a93ba042ac.html" title="Jewell, Kansas, United States of America">Jewell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1891-01-03</td>
+						<td class="ColumnPlace"><a href="../../../plc/3/a/d92f0196319752c523728b3f8a3.html" title="Kansas, United States of America">Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1893-01-23</td>
+						<td class="ColumnPlace"><a href="../../../plc/3/a/d92f0196319752c523728b3f8a3.html" title="Kansas, United States of America">Kansas, United States of America</a></td>
+						<td class="ColumnType">Birth</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1912-04-16</td>
+						<td class="ColumnPlace"><a href="../../../plc/4/6/d8bb525624c17842d99ca225e64.html" title="Browns Creek, Jewell, Kansas, United States of America">Browns Creek, Jewell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1912-05-28</td>
+						<td class="ColumnPlace"><a href="../../../plc/8/c/d8c7c65465418955b3663968c8.html" title="Athens, Jewell, Kansas, United States of America">Athens, Jewell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1937-05-24</td>
+						<td class="ColumnPlace"><a href="../../../plc/3/3/d8fad1456ba7ed1718a7b0ae633.html" title="Glen Elder, Mitchell, Kansas, United States of America">Glen Elder, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1938-05-19</td>
+						<td class="ColumnPlace"><a href="../../../plc/c/a/d92f181769d289d0a93ba042ac.html" title="Jewell, Kansas, United States of America">Jewell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1956-12-30</td>
+						<td class="ColumnPlace"><a href="../../../plc/2/5/d8c7f2fa0dc1112604151f59b52.html" title="Beloit, Mitchell, Kansas, United States of America">Beloit, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1958-02-20</td>
+						<td class="ColumnPlace"><a href="../../../plc/2/5/d8c7f2fa0dc1112604151f59b52.html" title="Beloit, Mitchell, Kansas, United States of America">Beloit, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1961-04-04</td>
+						<td class="ColumnPlace"><a href="../../../plc/2/5/d8c7f2fa0dc1112604151f59b52.html" title="Beloit, Mitchell, Kansas, United States of America">Beloit, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1962-12-27</td>
+						<td class="ColumnPlace"><a href="../../../plc/2/5/d8c7f2fa0dc1112604151f59b52.html" title="Beloit, Mitchell, Kansas, United States of America">Beloit, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1971-10-11</td>
+						<td class="ColumnPlace"><a href="../../../plc/c/a/d92f181769d289d0a93ba042ac.html" title="Jewell, Kansas, United States of America">Jewell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+					<tr>
+						<td class="ColumnDate">1972-07-22</td>
+						<td class="ColumnPlace"><a href="../../../plc/2/5/d8c7f2fa0dc1112604151f59b52.html" title="Beloit, Mitchell, Kansas, United States of America">Beloit, Mitchell, Kansas, United States of America</a></td>
+						<td class="ColumnType">Death</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="fullclear"></div>
+	<div id="footer">
+		<p id="createdate">
+		Generated by <a href="http://gramps-project.org/">Gramps</a> GrampsAIO64-4.2.5-1 on 2017-05-02
+		</p>
+		<p id="copyright">
+		&copy; 2017 Renee Schmidt
+		</p>
+	</div>
+</body>
+</html>
