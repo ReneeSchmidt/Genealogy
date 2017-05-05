@@ -466,12 +466,40 @@ div#families table.attrlist td.ColumnType {
 h4 + div.grampsstylednote, a.familymap {
     margin: 1em 15px;
 }
-i + div.grampsstylednote p {
+i + div.grampsstylednote {
     margin: 0 0 0.3em 0;
 }
-div.grampsstylednote p {
+div.grampsstylednote {
     margin-bottom: 0.5em;
+	position: relative;
+  	width: 30%;
+ 	padding: 1em 1.5em;
+ 	margin: 2em auto;
+  	color: #000;
+  	background: #CCC;
+
 }
+div.grampsstylednote:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #555 #fff;
+}
+div.grampsstylednote:before {
+  ...
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+}
+div.grampsstylednote:before {
+  ...
+  display: block;
+  width: 0;
+}
+
 
 /* Subsection : Family Map
 ----------------------------------------------------- */
